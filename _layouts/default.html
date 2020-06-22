@@ -9,14 +9,14 @@
 		<meta http-equiv="content-language" content="{{ site.locale }}" />
 		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
 
-		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+		<!--[if lte IE 8]><script src="{{ site.baseurl }}/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ site.baseurl }}//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/css/ie8.css" /><![endif]-->
 
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 
     {% seo %}
     {% feed_meta %}
@@ -52,18 +52,18 @@
         {% endif %}
       </ul>
       <ul class="copyright">
-          <li>&copy; Untitled</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          <li>&copy; tkvtv</li>
+          <li>Design: <a href="http://html5up.net">takagotch</a></li>
           <li>Theme: <a href="http://comfusionllc.com">Comfusion LLC</a></li>
       </ul>
     </footer>
 
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/jquery.poptrox.min.js"></script>
-		<script src="/js/skel.min.js"></script>
-		<script src="/js/util.js"></script>
-		<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
-		<script src="/js/main.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery.poptrox.min.js"></script>
+		<script src="{{ site.baseurl }}/js/skel.min.js"></script>
+		<script src="{{ site.baseurl }}/js/util.js"></script>
+		<!--[if lte IE 8]><script src="{{ site.baseurl }}/js/ie/respond.min.js"></script><![endif]-->
+		<script src="{{ site.baseurl }}/js/main.js"></script>
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
